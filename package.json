@@ -1,0 +1,33 @@
+{
+  "name": "simple-rate-limiter",
+  "version": "1.0.0",
+  "description": "A lightweight, dependency-free rate limiter for Node.js using a sliding window",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "keywords": [
+    "rate-limiter",
+    "rate-limiting",
+    "api",
+    "utility"
+  ],
+  "author": "Vaibhav Andhale",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/simple-rate-limiter.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "jest": "^29.7.0",
+    "rollup": "^4.9.6"
+  }
+}
