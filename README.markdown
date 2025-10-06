@@ -1,4 +1,6 @@
-# Simple Rate Limiter
+# Node Rate Limiting
+
+[![npm version](https://badge.fury.io/js/node-rate-limiting.svg)](https://npmjs.com/package/node-rate-limiting)
 
 A lightweight, dependency-free rate limiter for Node.js using a sliding window algorithm. Supports both CommonJS and ES Modules.
 

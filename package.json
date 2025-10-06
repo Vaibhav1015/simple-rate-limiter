@@ -1,6 +1,6 @@
 {
   "name": "node-rate-limiting",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A lightweight, dependency-free rate limiter for Node.js using a sliding window",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -11,15 +11,13 @@
     "test": "jest"
   },
   "keywords": [
-    "node",
-    "rate",
-    "limit",
-    "limiter",
     "rate-limiter",
     "rate-limiting",
-    "express-rate-limiter",
-    "api",
-    "utility"
+    "express-rate-limit",
+    "node-rate-limit",
+    "api-rate-limiting",
+    "throttling",
+    "middleware"
   ],
   "author": "Vaibhav Andhale",
   "license": "MIT",
@@ -33,9 +31,9 @@
   "devDependencies": {
     "@babel/core": "^7.23.0",
     "@babel/preset-env": "^7.23.0",
-    "babel-jest": "^29.7.0",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
     "rollup": "^4.9.6"
   },
@@ -47,5 +45,8 @@
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
+  },
+  "dependencies": {
+    "node-rate-limiting": "^1.0.3"
   }
 }
